@@ -1,0 +1,172 @@
+﻿body {
+}
+
+.contain1 {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.contain2 {
+    display: flex;
+    margin-right: 10px;
+}
+
+.lableBtn {
+    border-radius: 6px;
+    border: 1px solid rgb(0,0,0);
+}
+
+.lauBtnDiv {
+    float: right;
+    margin-left: auto;
+}
+
+.js_file {
+    display: none;
+    color: rgb(50,50,50);
+    border-radius: 5px;
+    border-color: rgb(255,255,255);
+    margin-left: 4Px;
+    margin-top: 10px;
+    background-color: rgb(190, 190, 190);
+}
+
+#resultStr {
+    margin: 15px;
+    border-radius: 2px;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.imgPre {
+    margin: 0 auto;
+    text-align: center;
+    visibility: hidden;
+}
+
+.imgContain {
+    display: flex;
+    justify-content: center;
+}
+
+#inputStr {
+    overflow: hidden;
+}
+
+#decodeBtn {
+    margin-top: 5px;
+}
+
+
+
+.lableBtn:hover {
+    background-color: rgb(230, 230, 220);
+}
+
+.infoLabel {
+    font-size: smaller;
+    color: seagreen;
+}
+
+#decodeLabel {
+    color: rgb(12, 24, 2);
+    font-size: smaller;
+}
+/*.mainDiv{
+      margin-top:20px;
+ }*/
+.decodeDiv {
+    margin: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(12, 24, 2);
+}
+
+.encodeDiv {
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(12, 24, 2);
+}
+
+.imgdecode {
+    visibility: hidden;
+}
+
+.imgdonate {
+    visibility: visible;
+}
+
+.longPressLable {
+    color: red;
+    font-size: smaller;
+}
+
+#longPressLable {
+    visibility: hidden;
+}
+
+#resultStr {
+    word-wrap: break-word;
+    word-break: normal;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#lauBtn {
+    color: seagreen;
+    border-radius: 5px;
+    border: 1px solid rgb(12, 24, 2);
+}
+
+    #lauBtn:hover {
+        background-color: rgb(230, 230, 220);
+    }
+
+@keyframes fade {
+    from {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1.0;
+    }
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1.0;
+    }
+}
+
+.headerBox {
+    color: rgb(26, 177, 252);
+    animation: fade 600ms infinite;
+    -webkit-animation: fade 600ms infinite;
+}
+
+.materialize-textarea {
+    border: 1px solid #9e9e9e !important;
+}
+
+#lable_input {
+    background-color: white;
+}
+
+.input-field.col label {
+    left: 1.2rem !important;
+}
